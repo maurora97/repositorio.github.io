@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contabilidad.com</title>
+    <style>
+        body {
+            background-color: #4f84d4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 210px;
+            position: relative;
+        }
+        #main-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #contabilidad-box {
+            display: inline-block;
+            background-color: white;
+            padding: 10px 20px;
+            border-radius: 3px;
+            margin-bottom: 20px;
+        }
+        #gray-rectangle {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #777474fa;
+            z-index: -1;
+        }
+        #top-rectangle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: rgba(110, 109, 109, 0.884);
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="top-rectangle"></div>
+    <div id="contabilidad-box">
+        <h1 id="main-header">Contabilidad.com</h1>
+    </div>
+    <h2 id="main-header"><a href="products.html">Productos</a> | <a href="libros-contables.html">Libros Contables</a> | <a href="caja.html">Caja</a> | <a href="balance-general.html">Balance General</a></h2>
+    <div id="gray-rectangle"></div>
+</body>
+</html>
